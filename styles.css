@@ -141,12 +141,12 @@ img {
 }
 
 .classleader.active::after,
-.node.active::after,
+.vice class leader.active::after,
 .react.active::after,
 .angular.active::after,
 .vue.active::after,
 .classleader.active::before,
-.node.active::before,
+.vice class leader.active::before,
 .react.active::before,
 .angular.active::before,
 .vue.active::before {
@@ -175,21 +175,21 @@ img {
   color: #f1be38;
 }
 
-.node {
+.vice class leader {
   background-color: #569d48;
 }
 
-.node.active::after {
+.vice class leader.active::after {
   background-color: #eeeeee;
   bottom: 0;
 }
 
-.node.active::before {
+.vice class leader.active::before {
   background-color: #eeeeee;
   top: 0;
 }
 
-#node h2 {
+#vice class leader h2 {
   color: #569d48;
 }
 
@@ -249,12 +249,12 @@ img {
 
 @media (max-width: 768px) {
   .classleader.active::after,
-  .node.active::after,
+  .vice class leader.active::after,
   .react.active::after,
   .angular.active::after,
   .vue.active::after,
   .classleader.active::before,
-  .node.active::before,
+  .vice class leader.active::before,
   .react.active::before,
   .angular.active::before,
   .vue.active::before {

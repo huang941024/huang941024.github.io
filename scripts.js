@@ -58,16 +58,16 @@
 
     //點擊滑動
     $(function () {
-      $(".javascript").on("click", function () {
+      $(".classleader").on("click", function () {
         $("html,body").animate(
-          { scrollTop: $("#javascript").offset().top },
+          { scrollTop: $("#classleader").offset().top },
           600
         );
         $(this).toggleClass("active");
         $(this).parent().siblings().find("a").removeClass("active");
       });
-      $(".node").on("click", function () {
-        $("html,body").animate({ scrollTop: $("#node").offset().top }, 600);
+      $(".vice class leader").on("click", function () {
+        $("html,body").animate({ scrollTop: $("#vice class leader").offset().top }, 600);
         $(this).toggleClass("active");
         $(this).parent().siblings().find("a").removeClass("active");
       });

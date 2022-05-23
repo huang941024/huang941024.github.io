@@ -140,12 +140,12 @@ img {
   }
 }
 
-.javascript.active::after,
+.classleader.active::after,
 .node.active::after,
 .react.active::after,
 .angular.active::after,
 .vue.active::after,
-.javascript.active::before,
+.classleader.active::before,
 .node.active::before,
 .react.active::before,
 .angular.active::before,
@@ -157,21 +157,21 @@ img {
   left: 0;
 }
 
-.javascript {
+.classleader {
   background-color: #f1be38;
 }
 
-.javascript.active::after {
+.classleader.active::after {
   background-color: #e6a33a;
   bottom: 0;
 }
 
-.javascript.active::before {
+.classleader.active::before {
   background-color: #e6a33a;
   top: 0;
 }
 
-#javascript h2 {
+#classleader h2 {
   color: #f1be38;
 }
 

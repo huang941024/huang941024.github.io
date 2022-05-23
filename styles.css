@@ -251,12 +251,12 @@ img {
   .classleader.active::after,
   .vice.active::after,
   .discipline.active::after,
-  .angular.active::after,
+  .sport.active::after,
   .vue.active::after,
   .classleader.active::before,
   .vice.active::before,
   .discipline.active::before,
-  .angular.active::before,
+  .sport.active::before,
   .vue.active::before {
     height: 5px;
   }

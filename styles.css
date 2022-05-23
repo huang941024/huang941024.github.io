@@ -248,12 +248,12 @@ img {
 }
 
 @media (max-width: 768px) {
-  .javascript.active::after,
+  .classleader.active::after,
   .node.active::after,
   .react.active::after,
   .angular.active::after,
   .vue.active::after,
-  .javascript.active::before,
+  .classleader.active::before,
   .node.active::before,
   .react.active::before,
   .angular.active::before,

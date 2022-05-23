@@ -66,8 +66,8 @@
         $(this).toggleClass("active");
         $(this).parent().siblings().find("a").removeClass("active");
       });
-      $(".viceclassleader").on("click", function () {
-        $("html,body").animate({ scrollTop: $("#viceclassleader").offset().top }, 600);
+      $(".vice").on("click", function () {
+        $("html,body").animate({ scrollTop: $("#vice").offset().top }, 600);
         $(this).toggleClass("active");
         $(this).parent().siblings().find("a").removeClass("active");
       });

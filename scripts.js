@@ -81,8 +81,8 @@
         $(this).toggleClass("active");
         $(this).parent().siblings().find("a").removeClass("active");
       });
-      $(".vue").on("click", function () {
-        $("html,body").animate({ scrollTop: $("#vue").offset().top }, 600);
+      $(".daily").on("click", function () {
+        $("html,body").animate({ scrollTop: $("#daily").offset().top }, 600);
         $(this).toggleClass("active");
         $(this).parent().siblings().find("a").removeClass("active");
       });

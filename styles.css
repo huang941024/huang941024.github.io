@@ -144,12 +144,12 @@ img {
 .vice.active::after,
 .discipline.active::after,
 .sport.active::after,
-.vue.active::after,
+.daily.active::after,
 .classleader.active::before,
 .vice.active::before,
 .discipline.active::before,
 .sport.active::before,
-.vue.active::before {
+.daily.active::before {
   content: "";
   width: 100%;
   height: 10px;
@@ -229,21 +229,21 @@ img {
   color: #e0353d;
 }
 
-.vue {
+.daily {
   background-color: #47b785;
 }
 
-.vue.active::after {
+.daily.active::after {
   background-color: #364a5d;
   bottom: 0;
 }
 
-.vue.active::before {
+.daily.active::before {
   background-color: #364a5d;
   top: 0;
 }
 
-#vue h2 {
+#daily h2 {
   color: #47b785;
 }
 
@@ -252,12 +252,12 @@ img {
   .vice.active::after,
   .discipline.active::after,
   .sport.active::after,
-  .vue.active::after,
+  .daily.active::after,
   .classleader.active::before,
   .vice.active::before,
   .discipline.active::before,
   .sport.active::before,
-  .vue.active::before {
+  .daily.active::before {
     height: 5px;
   }
 }

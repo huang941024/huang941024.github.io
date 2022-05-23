@@ -143,12 +143,12 @@ img {
 .classleader.active::after,
 .vice.active::after,
 .discipline.active::after,
-.angular.active::after,
+.sport.active::after,
 .vue.active::after,
 .classleader.active::before,
 .vice.active::before,
 .discipline.active::before,
-.angular.active::before,
+.sport.active::before,
 .vue.active::before {
   content: "";
   width: 100%;
@@ -211,21 +211,21 @@ img {
   color: #59c1dd;
 }
 
-.angular {
+.sport {
   background-color: #e0353d;
 }
 
-.angular.active::after {
+.sport.active::after {
   background-color: #b33035;
   bottom: 0;
 }
 
-.angular.active::before {
+.sport.active::before {
   background-color: #b33035;
   top: 0;
 }
 
-#angular h2 {
+#sport h2 {
   color: #e0353d;
 }
 

@@ -71,8 +71,8 @@
         $(this).toggleClass("active");
         $(this).parent().siblings().find("a").removeClass("active");
       });
-      $(".react").on("click", function () {
-        $("html,body").animate({ scrollTop: $("#react").offset().top }, 600);
+      $(".discipline").on("click", function () {
+        $("html,body").animate({ scrollTop: $("#discipline").offset().top }, 600);
         $(this).toggleClass("active");
         $(this).parent().siblings().find("a").removeClass("active");
       });

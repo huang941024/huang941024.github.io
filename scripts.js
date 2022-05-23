@@ -76,8 +76,8 @@
         $(this).toggleClass("active");
         $(this).parent().siblings().find("a").removeClass("active");
       });
-      $(".angular").on("click", function () {
-        $("html,body").animate({ scrollTop: $("#angular").offset().top }, 600);
+      $(".sport").on("click", function () {
+        $("html,body").animate({ scrollTop: $("#sport").offset().top }, 600);
         $(this).toggleClass("active");
         $(this).parent().siblings().find("a").removeClass("active");
       });

@@ -10,7 +10,7 @@
   <div class="wrap">
     <div class="slogan">
       <h1>110級114班</h1>
-      <h3>Sliding content with sticky tab nav</h3>
+      <h3>考試時間公告</h3>
   <ul class="menu">
     <li><a href="#javascript" class="javascript">JavaScript</a></li>
     <li><a href="#node" class="node">Node</a></li>
@@ -29,6 +29,11 @@
       <input type="text" class="text" placeholder="輸入考試範圍">
       <input type="submit" class="send" value="Hey">
       <output name="result" for="text"></output>
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+      <input type="range" id="b" name="b" value="50" /> +
+      <input type="number" id="a" name="a" value="10" /> =
+      <output name="result" for="a b">60</output>
+    </form>
     </div>
         </div>
         <div class="pic">

@@ -176,21 +176,21 @@ img {
 }
 
 .vice {
-  background-color: #F5EC4D;
+  background-color: #FFD433;
 }
 
 .vice.active::after {
-  background-color: #F5EC4D;
+  background-color: #FFD433;
   bottom: 0;
 }
 
 .vice.active::before {
-  background-color: #F5EC4D;
+  background-color: #FFD433;
   top: 0;
 }
 
 #vice h2 {
-  color: #F5EC4D;
+  color: #FFD433;
 }
 
 .discipline {

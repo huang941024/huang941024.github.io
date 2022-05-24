@@ -176,75 +176,75 @@ img {
 }
 
 .vice {
-  background-color: #569d48;
+  background-color: #FAED07;
 }
 
 .vice.active::after {
-  background-color: #eeeeee;
+  background-color: #FAED07;
   bottom: 0;
 }
 
 .vice.active::before {
-  background-color: #eeeeee;
+  background-color: #FAED07;
   top: 0;
 }
 
 #vice h2 {
-  color: #569d48;
+  color: #FAED07;
 }
 
 .discipline {
-  background-color: #59c1dd;
+  background-color: #87F52B;
 }
 
 .discipline.active::after {
-  background-color: #fff;
+  background-color: #87F52B;
   bottom: 0;
 }
 
 .discipline.active::before {
-  background-color: #fff;
+  background-color: #87F52B;
   top: 0;
 }
 
 #discipline h2 {
-  color: #59c1dd;
+  color: #87F52B;
 }
 
 .sport {
-  background-color: #e0353d;
+  background-color: #1BAFF5;
 }
 
 .sport.active::after {
-  background-color: #b33035;
+  background-color: #1BAFF5;
   bottom: 0;
 }
 
 .sport.active::before {
-  background-color: #b33035;
+  background-color: #1BAFF5;
   top: 0;
 }
 
 #sport h2 {
-  color: #e0353d;
+  color: #1BAFF5;
 }
 
 .daily {
-  background-color: #47b785;
+  background-color: #A04EF5;
 }
 
 .daily.active::after {
-  background-color: #364a5d;
+  background-color: #A04EF5;
   bottom: 0;
 }
 
 .daily.active::before {
-  background-color: #364a5d;
+  background-color: #A04EF5;
   top: 0;
 }
 
 #daily h2 {
-  color: #47b785;
+  color: #A04EF5;
 }
 
 @media (max-width: 768px) {

@@ -162,12 +162,12 @@ img {
 }
 
 .classleader.active::after {
-  background-color: #e6a33a;
+  background-color: #F52F26;
   bottom: 0;
 }
 
 .classleader.active::before {
-  background-color: #e6a33a;
+  background-color: #F52F26;
   top: 0;
 }
 
